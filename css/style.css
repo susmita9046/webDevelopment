@@ -24,9 +24,9 @@ nav ul li{
 }
 nav ul li a{
 	text-decoration: none;
-	background-color:#636e72 ;
+	background-color:#dfe6e9 ;
 	display:block;
-	color: #fff;
+	color: black;
 	padding: 20px;
 	text-align: center;
 	text-transform: uppercase;
@@ -35,11 +35,11 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-	background-color: black;
+	background-color: white;
 }
 section{
 	display: flex;
-	background-color: #636e72;
+	background-color: #dfe6e9;
 	margin: 1%;
 }
 section div img{
