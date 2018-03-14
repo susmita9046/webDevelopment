@@ -6,7 +6,7 @@ header{
 }
 
 header img{
-	width:150px;
+	width: 90px;
 }
 
 nav ul{
@@ -38,11 +38,13 @@ nav ul li a:hover{
 	background-color: white;
 }
 .main-section{
+	width: 90%; 
+	margin: 0 auto;
 	display: flex;
 	padding: 4%;
 	justify-content: space-around;
-	background-color: #dfe6e9;
-	margin: 1%;
+	background-color: grey;
+	margin: 1% ;
 
 }
 
@@ -54,12 +56,13 @@ nav ul li a:hover{
 }
 .main-section .rightbar{
 	padding: 2%;
+	
 
 }
 .main-section .insideright{
 	display: flex;
 }
-.main-section .insideright img{
+.main-section .middlesection img{
 	max-width:70%;
 }
 .main-section .insideright div{
@@ -69,10 +72,10 @@ nav ul li a:hover{
 	padding: 0;
 	margin: 0 0 0 20px;
 }
-/*footer{*/
-	/*background-color: grey;*/
-	/*margin: 1%;*/
-	/*}*/
-	/*footer div{*/
-		/*background-color: grey;*/
-		/*}*/
+footer{
+    background-color: grey;
+    margin: 1% auto;
+    padding: 2%;
+    width: 98%;
+    box-sizing: border-box;
+}
