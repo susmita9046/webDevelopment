@@ -50,7 +50,7 @@ nav ul li a:hover{
 
 }
 .main-section .leftbar{
-	padding: 2%;
+	padding: 20px;
 
 	
 }
@@ -63,7 +63,7 @@ nav ul li a:hover{
 	display: flex;
 }
 .main-section .middlesection img{
-	max-width:70%;
+	max-width:100%;
 }
 .main-section .insideright div{
 	padding: 20px;
@@ -72,10 +72,40 @@ nav ul li a:hover{
 	padding: 0;
 	margin: 0 0 0 20px;
 }
+
+form{
+
+}
 footer{
     background-color: grey;
     margin: 1% auto;
     padding: 2%;
     width: 98%;
     box-sizing: border-box;
+}
+.box-input{
+	display: flex;
+	justify-content: flex-start;
+}
+.box-output{
+	display: flex;
+	justify-content: center;
+}
+.box-indoor{
+	display:inline-flex;
+	justify-content: flex-start;
+}
+.box-outdoor{
+	display: flex;
+	justify-content: space-between;
+}
+.box-indoor{
+	display: flex;
+	justify-content: flex-start;
+}
+
+/*much better planing*/
+.d3{
+	width: 33.33%; 
+	word-wrap: break-word;
 }
