@@ -43,7 +43,7 @@ nav ul li a:hover{
 	display: flex;
 	padding: 4%;
 	justify-content: space-around;
-	background-color: grey;
+	background-color: white;
 	margin: 1% ;
 
 }
@@ -63,6 +63,7 @@ nav ul li a:hover{
 	display: flex;
 }
 .main-section .middlesection img{
+	border: 5px solid black;
 	max-width:100%;
 }
 .main-section .insideright div{
@@ -78,10 +79,11 @@ form{
 }
 footer{
     background-color: grey;
-    margin: 1% auto;
+    margin: 0% auto;
     padding: 2%;
     width: 98%;
     box-sizing: border-box;
+
 }
 .box-input{
 	display: flex;
