@@ -69,13 +69,24 @@ nav ul li a:hover{
 .main-section .insideright div{
 	padding: 20px;
 }
-.main-section .rightbar h1{
+/*.rightbar h1{*/
 	padding: 0;
 	margin: 0 0 0 20px;
 }
 
 form{
 
+}
+form label{
+	padding: 5px;
+	width: 60px;
+	text-transform: capitalize;
+
+}
+form input{
+	padding: 5px;
+	border-color: transparent;
+	border-bottom: 1px solid black;
 }
 footer{
     background-color: grey;
@@ -89,25 +100,10 @@ footer{
 	display: flex;
 	justify-content: flex-start;
 }
-.box-output{
-	display: flex;
-	justify-content: center;
-}
-.box-indoor{
-	display:inline-flex;
-	justify-content: flex-start;
-}
-.box-outdoor{
-	display: flex;
-	justify-content: space-between;
-}
-.box-indoor{
-	display: flex;
-	justify-content: flex-start;
-}
-
 /*much better planing*/
 .d3{
 	width: 33.33%; 
 	word-wrap: break-word;
 }
+.
+
