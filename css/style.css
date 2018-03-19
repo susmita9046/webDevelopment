@@ -38,40 +38,32 @@ nav ul li a:hover{
 	background-color: white;
 }
 .main-section{
-	width: 90%; 
+ 
 	margin: 0 auto;
 	display: flex;
-	padding: 4%;
+	padding: 5%;
 	justify-content: space-around;
 	background-color: white;
-	margin: 1% ;
+	margin: 2%;
 
 }
 
 }
-.main-section .leftbar{
-	padding: 20px;
+.main-section .middlesection{
+	padding: 4px;
+
+	
+
 
 	
 }
-.main-section .rightbar{
-	padding: 2%;
-	
 
-}
-.main-section .insideright{
-	display: flex;
-}
-.main-section .middlesection img{
+.main-section .leftbar img{
 	border: 5px solid black;
 	max-width:100%;
-}
-.main-section .insideright div{
-	padding: 20px;
-}
-/*.rightbar h1{*/
-	padding: 0;
-	margin: 0 0 0 20px;
+	
+	object-fit: cover;
+
 }
 
 form{
@@ -101,9 +93,25 @@ footer{
 	justify-content: flex-start;
 }
 /*much better planing*/
-.d3{
-	width: 33.33%; 
+.d2{
+	width: 50%;
+	padding:  0 3%;
 	word-wrap: break-word;
 }
-.
 
+
+/*.mainsection{*/
+	/*background-color: red;*/
+	/*height: 20px;*/
+/*}*/
+footer{
+
+    margin: 0% auto;
+    padding: 3%;
+    width: 100%;
+    box-sizing: content-box;
+}
+.box-output{
+	display: flex;
+	justify-content: flex-start;
+}
