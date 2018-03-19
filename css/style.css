@@ -80,14 +80,7 @@ form input{
 	border-color: transparent;
 	border-bottom: 1px solid black;
 }
-footer{
-    background-color: grey;
-    margin: 0% auto;
-    padding: 2%;
-    width: 98%;
-    box-sizing: border-box;
 
-}
 .box-input{
 	display: flex;
 	justify-content: flex-start;
@@ -99,19 +92,17 @@ footer{
 	word-wrap: break-word;
 }
 
-
-/*.mainsection{*/
-	/*background-color: red;*/
-	/*height: 20px;*/
-/*}*/
-footer{
-
-    margin: 0% auto;
-    padding: 3%;
-    width: 100%;
-    box-sizing: content-box;
 }
 .box-output{
 	display: flex;
 	justify-content: flex-start;
+}
+footer{
+    /*background-color: grey;*/
+    margin: 0% auto;
+    padding: 2%;
+    width: 98%;
+    box-sizing: border-box;
+    text-align: center;
+
 }
