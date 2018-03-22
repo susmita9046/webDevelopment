@@ -50,7 +50,6 @@ nav ul li a:hover{
 
 }
 
-}
 .main-section .middlesection{
 	padding: 4px;
 }
@@ -63,23 +62,33 @@ nav ul li a:hover{
 }
 
 form{
-
+/*padding: 2%;*/
 }
 form label{
 	padding: 5px;
 	width: 60px;
 	text-transform: capitalize;
 
+
 }
 form input{
 	padding: 5px;
 	border-color: transparent;
-	border-bottom: 1px solid black;
+	border: 1px solid black;
+	/*background-color: yellow;*/
+	margin: 2%;
+	/*display: flex;*/
+
 }
 
 .box-input{
 	display: flex;
+	/*width: 90px;*/
 	justify-content: flex-start;
+	padding: 2%;
+}
+.box-input label{
+	width: 90px;
 }
 /*much better planing*/
 .d2{
@@ -88,11 +97,11 @@ form input{
 	word-wrap: break-word;
 }
 
-}
-.box-output{
-	display: flex;
-	justify-content: flex-start;
-}
+/*}*/
+/*.box-output{*/
+	/*display: flex;*/
+	/*justify-content: flex-start;*/
+/*}*/
 footer{
     background-color: #f6f2f2;
     margin: 0% auto;
@@ -129,4 +138,31 @@ paddig:2%;
 	/*object-fit: cover;         */
     height:500px;
 	 width:300px;
+}
+.insideright{
+  padding-left:13%;
+}
+section{
+	background-color: #dfe6e9;
+	padding: 4%;
+	margin: 1%;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 20%;
+	
+
+}
+section .main{
+padding: 5%;
+}
+section .main img{
+
+	border-radius: 30px;
+	object-fit: cover;         
+    height:400px;
+	 width:300px;
+}
+section .second{
+
 }
