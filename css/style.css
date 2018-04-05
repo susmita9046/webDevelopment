@@ -169,4 +169,17 @@ section .main img{
 section .second{
     padding: 1%;
     width: 90%;
+
+}
+section .second button{
+	padding: 10px 15px;
+}
+
+
+/*module_gp page content*/
+.modal_gp_section h2{
+	text-transform: capitalize;
+}
+.modal_gp_section p{
+	line-height: 20px;
 }
