@@ -18,7 +18,7 @@ header img{
 nav ul{
 	display: flex;
 	list-style: none;
-	display: flex;
+
 	justify-content: space-between;
 	margin: 0;
 	padding-left: 0;
@@ -217,4 +217,14 @@ section .second button{
 	width: 200px;
 	object-fit: cover;
 	border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 767px){
+	nav ul {
+		flex-direction: column;
+	}
+	.main-section{
+		flex-direction: column;
+	}
 }
