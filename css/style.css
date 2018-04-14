@@ -73,7 +73,7 @@ section{
 	border-radius: 30px;
 	object-fit: cover;         
 	/*height:*/
-	width:450px;
+	max-width:100%;
 	
 }
 /*form part start*/
@@ -111,7 +111,7 @@ form input{
 }
 /*much better planing*/
 .d2{
-	width: 50%;
+	width: 100%;
 	padding: 0 3%;
 	word-wrap: break-word;
 }
@@ -138,6 +138,7 @@ footer{
 .middlesection{
 	padding-left: 0;
 }
+/*yo extra vako jsto lagiraheko xa*/
 .rightbar{
 	display: flex;
 	padding: 0 5% 0 0;
@@ -147,8 +148,9 @@ footer{
 	width: 90%;	
 }
 .rightbar .insideright{
-	paddig:2%;
+	padding:2%;
 }
+/*yeha samma*/
 .map{
 	margin-top: 110px;
 }
@@ -160,6 +162,7 @@ footer{
 	font-size: 36px;
 }
 /*mainpart*/
+/*backgroundimage*/
 section{
 	background: url(../image/back.jpg);
 	background-size: cover;
@@ -199,10 +202,17 @@ section .second button{
 /*module_gp page content*/
 .modal_gp_section h2{
 	text-transform: capitalize;
+	
 }
-.modal_gp_section p{
+.model_gp_section p{
 	line-height: 20px;
+	
+	
 }
+.model_gp_section image{
+	max-width: 100%;
+}
+/*social page*/
 .listsocial{
 	list-style: none;
 	display: flex;
@@ -218,7 +228,7 @@ section .second button{
 	object-fit: cover;
 	border-radius: 50%;
 }
-
+/*responsive*/
 
 @media only screen and (max-width: 767px){
 	nav ul {
@@ -227,4 +237,25 @@ section .second button{
 	.main-section{
 		flex-direction: column;
 	}
+	
+     section{
+     	flex-direction: column;
+
+     }
+     .widthasign{
+     	flex-direction: column;
+
+     }
+     .main-section box-input{
+     	flex-direction: column;
+
+     }
+     .listsocial{
+     	flex-direction: column;
+     }
+
+    
 }
+/*more hover*/
+
+
