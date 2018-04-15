@@ -38,9 +38,8 @@ nav ul li a{
 	text-align: center;
 	text-transform: uppercase;
 
-
-
 }
+/*color will change*/
 nav ul li a:hover{
 	background-color: #d1d1d1;
 }
@@ -138,19 +137,7 @@ footer{
 .middlesection{
 	padding-left: 0;
 }
-/*yo extra vako jsto lagiraheko xa*/
-.rightbar{
-	display: flex;
-	padding: 0 5% 0 0;
-	justify-content: space-around;
-	background-color: white;
-	margin: 2% auto;
-	width: 90%;	
-}
-.rightbar .insideright{
-	padding:2%;
-}
-/*yeha samma*/
+/*map css start*/
 .map{
 	margin-top: 110px;
 }
@@ -162,7 +149,7 @@ footer{
 	font-size: 36px;
 }
 /*mainpart*/
-/*backgroundimage*/
+/* forbackgroundimage*/
 section{
 	background: url(../image/back.jpg);
 	background-size: cover;
@@ -253,8 +240,11 @@ section .second button{
      .listsocial{
      	flex-direction: column;
      }
+     .model_gp_section img{
+     	max-width: 100%;
+     }
 
-    
+   
 }
 /*more hover*/
 
