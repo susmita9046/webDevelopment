@@ -1,25 +1,29 @@
 /*body part*/
 body{
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif; 
+	/*//font will be big*/
 }
 /*header css*/
 header{
 	text-align: center;
-	/*border:5px solid #4fbae6;*/
 	margin: 0; 
 }
+/*this is for logo*/
+header img{ 
 
-header img{
 	width: 150px;
 	margin: 25px 0 15px;
 }
+
+
+
 /*nav css*/
 nav ul{
 	display: flex;
 	list-style: none;
 
-	justify-content: space-between;
+	justify-content: space-between;    
 	margin: 0;
 	padding-left: 0;
 	
@@ -48,7 +52,11 @@ nav ul li a:hover{
 	width: 90%;
 	display: flex;
 	margin: 0 auto;
+
 }
+
+}
+/*this is for section part*/
 section{
 	margin: 0 !important;
 }
@@ -67,12 +75,13 @@ section{
 	    padding: 0 15px;
 	/*width: 90%;*/
 }
-
+/*this is for image section*/
 .main-section .middlesection img{
-	border-radius: 30px;
+	border-radius: 30px ;
 	object-fit: cover;         
 	/*height:*/
 	max-width:100%;
+
 	
 }
 /*form part start*/
@@ -113,6 +122,7 @@ form input{
 	width: 100%;
 	padding: 0 3%;
 	word-wrap: break-word;
+	text-shadow: 1px 1px grey;
 }
 
 /*footer part start*/
@@ -174,6 +184,7 @@ section .main img{
 section .second{
 	padding: 1%;
 	width: 90%;
+text-shadow: 1px  1px grey;
 
 }
 section .second button{
@@ -214,9 +225,28 @@ section .second button{
 	width: 200px;
 	object-fit: cover;
 	border-radius: 50%;
+	background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-iteration-count: infinite;*/
 }
-/*responsive*/
+/* The animation code */
+@keyframes example {
+    0%   {transform: rotate(90deg);}
+    25%  {transform: rotate(180deg);}
+    50%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+/* forresponsive*/
 
+     .main-section box-input{
+     	flex-direction: column;
+
+     }
+     
+     .model_gp_section img{
+     	max-width: 100%;
+     }
 @media only screen and (max-width: 767px){
 	nav ul {
 		flex-direction: column;
