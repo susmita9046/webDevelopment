@@ -44,17 +44,36 @@ nav ul li a{
 
 }
 /*color will change*/
-nav ul li a:hover{
+nav ul li a:hover{ 
 	background-color: #d1d1d1;
+ transform:scale(1.1,1.1);	
+ /*transition-duration: 3s;*/
+
+
 }
 /*main section start*/
 .widthasign{
 	width: 90%;
 	display: flex;
 	margin: 0 auto;
-
+}
+.main img{
+	border-radius: 9px 9px 9px 9px;
+	transition-duration: 2s;
+}
+/*this is for hover image*/
+.main img:hover{
+	border-radius: 60%;
 }
 
+.third{
+	border-radius: 9px 9px 9px 9px;
+	transition-duration: 2s;
+	
+
+}
+.third :hover{
+	border-radius: 50%;
 }
 /*this is for section part*/
 section{
@@ -150,10 +169,12 @@ footer{
 /*map css start*/
 .map{
 	margin-top: 110px;
+	
 }
 .insideright{
 	width: 100%;
 	/*padding-left:13%;*/
+	
 }
 .insideright h1{
 	font-size: 36px;
@@ -271,7 +292,7 @@ section .second button{
      	flex-direction: column;
      }
      .model_gp_section img{
-     	max-width: 100%;
+     	max-width: 90%;
      }
 
    
