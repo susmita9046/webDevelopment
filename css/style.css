@@ -65,7 +65,7 @@ nav ul li a:hover{
 .main img:hover{
 	border-radius: 60%;
 }
-
+/*animation of image*/
 .third{
 	border-radius: 9px 9px 9px 9px;
 	transition-duration: 2s;
@@ -241,6 +241,7 @@ section .second button{
 	padding: 0;
 	align-items: center;
 }
+/*for middle image of social icon*/
 .listsocial .image-again img{
 	height: 200px;
 	width: 200px;
@@ -258,7 +259,7 @@ section .second button{
     50%  {transform: rotate(270deg);}
     100% {transform: rotate(360deg);}
 }
-/* forresponsive*/
+
 
      .main-section box-input{
      	flex-direction: column;
@@ -268,6 +269,7 @@ section .second button{
      .model_gp_section img{
      	max-width: 100%;
      }
+     /*for responsive */
 @media only screen and (max-width: 767px){
 	nav ul {
 		flex-direction: column;
